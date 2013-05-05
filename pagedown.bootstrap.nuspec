@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>pagedown.bootstrap</id>
+    <version>0.9</version>
+    <authors>thoemmi</authors>
+    <owners>thoemmi</owners>
+    <licenseUrl>https://github.com/thoemmi/pagedown/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/thoemmi/pagedown</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A modified version of pagedown, a converter and editor for Markdown, to work with Bootstrap</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>pagedown markdown bootstrap</tags>
+    <dependencies>
+      <dependency id="Twitter.Bootstrap" version="2.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Markdown.Converter.js" target="scripts\pagedown\" />
+    <file src="Markdown.Sanitizer.js" target="scripts\pagedown\" />
+    <file src="Markdown.Editor.js" target="scripts\pagedown\" />
+    <file src="pagedown.bootstrap.css" target="content\pagedown\" />
+  </files>
+</package>
