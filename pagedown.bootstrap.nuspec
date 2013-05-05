@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>pagedown.bootstrap</id>
-    <version>0.9.1</version>
+    <version>0.9.2</version>
     <authors>thoemmi</authors>
     <owners>thoemmi</owners>
     <licenseUrl>https://github.com/thoemmi/pagedown/blob/master/LICENSE.txt</licenseUrl>
@@ -16,10 +16,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Markdown.Converter.js" target="scripts\pagedown\" />
-    <file src="Markdown.Sanitizer.js" target="scripts\pagedown\" />
-    <file src="Markdown.Editor.js" target="scripts\pagedown\" />
-    <file src="pagedown.bootstrap.css" target="content\pagedown\" />
-    <file src="Markdown.Editor.Icons.png" target="content\pagedown\" />
+    <file src="Markdown.Converter.js"     target="content\scripts\pagedown\" />
+    <file src="Markdown.Sanitizer.js"     target="content\scripts\pagedown\" />
+    <file src="Markdown.Editor.js"        target="content\scripts\pagedown\" />
+    <file src="pagedown.bootstrap.css"    target="content\content\pagedown\" />
+    <file src="Markdown.Editor.Icons.png" target="content\content\pagedown\" />
   </files>
 </package>
